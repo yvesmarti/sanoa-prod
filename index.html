@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sanoa Prod - Création et édition de podcasts</title>
+  <meta name="description" content="Technicienne du son, création de podcasts, montage et mixage audio">
+  
+  <!-- Polices Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Niramit:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/logo.svg" alt="Sanoa Prod" class="nav__logo-img">
+        <span class="nav__logo-text">Sanoa Prod</span>
+      </a>
+      
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span class="nav__toggle-icon"></span>
+      </button>
+      
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#hero" class="nav__link">Accueil</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#about" class="nav__link">À propos</a></li>
+        <li><a href="#projects" class="nav__link">Projets</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero__content">
+        <h1 class="hero__title">
+          Création et édition de podcasts<br>
+          <span class="hero__subtitle">Technicienne du son</span>
+        </h1>
+        <img src="assets/logo-large.svg" alt="Sanoa Prod" class="hero__logo">
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Services proposés</h2>
+          <div class="section__divider"></div>
+          <p class="section__description">
+            La gamme de services chez Sanoa Production couvre tout, de l'accompagnement à la conception jusqu'à la post-production.
+          </p>
+        </div>
+        
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__icon">🎧</div>
+            <h3 class="service-card__title">Enregistrement sonore</h3>
+            <p class="service-card__text">
+              Installation de studio, enregistrement sur le terrain, son à l'image. Quels sont vos besoins ?
+            </p>
+          </article>
+          
+          <article class="service-card">
+            <div class="service-card__icon">🎚️</div>
+            <h3 class="service-card__title">Montage et mixage audio</h3>
+            <p class="service-card__text">
+              Suppression des bruits parasites, ajout d'éléments sonores. Je transforme vos enregistrements bruts en produits prêts à diffuser.
+            </p>
+          </article>
+          
+          <article class="service-card">
+            <div class="service-card__icon">🚀</div>
+            <h3 class="service-card__title">Conception et diffusion</h3>
+            <p class="service-card__text">
+              Accompagnement de A à Z : définition des éléments nécessaires à la création et à la diffusion de votre projet.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__content">
+          <h2 class="section__title">Passion pour l'audio</h2>
+          <div class="section__divider"></div>
+          <p class="about__intro">
+            <strong>Fondée sur une passion pour l'audio, Sanoa Production vous propose des services de production sonore.</strong>
+          </p>
+          <p>
+            Je suis Elsa Piquet, ingénieure du son, avec plus de 15 ans d'expérience dans l'audio et la radio.
+          </p>
+          <p>
+            Ma mission : vous permettre de raconter et transmettre votre histoire et vos actions, en valorisant les voix engagées pour le développement durable.
+          </p>
+        </div>
+        <div class="about__image">
+          <!-- Placeholder pour image -->
+          <div class="about__image-placeholder"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Témoignages</h2>
+          <div class="section__divider"></div>
+        </div>
+        
+        <div class="testimonials__grid">
+          <blockquote class="testimonial">
+            <p>"Nous avons été ravis de son travail tant du point de vue technique que relationnel. Nous recommandons Elsa chaleureusement."</p>
+            <footer class="testimonial__author">— Guill</footer>
+          </blockquote>
+          
+          <blockquote class="testimonial">
+            <p>"Très bonne première expérience avec Elsa, toute la prestation a été nickel. Je la recommande."</p>
+            <footer class="testimonial__author">— David</footer>
+          </blockquote>
+          
+          <blockquote class="testimonial">
+            <p>"Un podcast réalisé avec un grand professionnalisme. Elsa est vraiment à l'écoute et a su retranscrire nos demandes."</p>
+            <footer class="testimonial__author">— Frédéric Bœuf</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <h2 class="section__title">Commencez maintenant</h2>
+          <div class="section__divider"></div>
+          <p>Prêt à démarrer votre prochain projet audio avec Sanoa Production ?</p>
+          
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon">📞</span>
+              <a href="tel:+33658128746">06 58 12 87 46</a>
+            </li>
+            <li>
+              <span class="contact__icon">✉️</span>
+              <a href="mailto:contact@sanoa-prod.fr">contact@sanoa-prod.fr</a>
+            </li>
+            <li>
+              <span class="contact__icon">📍</span>
+              <span>Caen, France</span>
+            </li>
+          </ul>
+          
+          <div class="contact__social">
+            <a href="https://www.linkedin.com/in/elsa-piquet-532565250" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.instagram.com/sanoa_prod" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/SanoaProd" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+        
+        <!-- Formulaire statique compatible GitHub Pages -->
+        <form class="contact__form" action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST">
+          <div class="form__group">
+            <label for="name">Nom <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form__group">
+            <label for="email">E-mail <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form__group">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>© 2026 Sanoa Prod. Tous droits réservés.</p>
+      <p class="footer__credit">
+        Site statique hébergé sur <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
