@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- Fond dégradé -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#135266"/>
+      <stop offset="100%" stop-color="#106f5f"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7fb8c0" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)"/>
+
+  <!-- Cercles décoratifs -->
+  <circle cx="340" cy="60"  r="80" fill="#ffffff" opacity="0.04"/>
+  <circle cx="60"  cy="340" r="100" fill="#ffffff" opacity="0.04"/>
+  <circle cx="200" cy="200" r="120" fill="#ffffff" opacity="0.03"/>
+
+  <!-- Casque audio stylisé -->
+  <!-- Arc casque -->
+  <path d="M 120 190 Q 120 100 200 100 Q 280 100 280 190" stroke="white" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Oreillette gauche -->
+  <rect x="100" y="185" width="36" height="60" rx="18" fill="url(#waveGrad)"/>
+  <!-- Oreillette droite -->
+  <rect x="264" y="185" width="36" height="60" rx="18" fill="url(#waveGrad)"/>
+  <!-- Pastilles intérieures -->
+  <circle cx="118" cy="215" r="10" fill="#135266" opacity="0.5"/>
+  <circle cx="282" cy="215" r="10" fill="#135266" opacity="0.5"/>
+
+  <!-- Micro bras -->
+  <line x1="282" y1="245" x2="282" y2="275" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="282" cy="282" r="10" fill="#599ba5"/>
+  <circle cx="282" cy="282" r="5"  fill="white" opacity="0.8"/>
+
+  <!-- Ondes sonores en bas -->
+  <g transform="translate(200, 330)" opacity="0.8">
+    <rect x="-60" y="-10" width="10" height="20" rx="5" fill="url(#waveGrad)" opacity="0.5"/>
+    <rect x="-44" y="-18" width="10" height="36" rx="5" fill="url(#waveGrad)" opacity="0.7"/>
+    <rect x="-28" y="-26" width="10" height="52" rx="5" fill="url(#waveGrad)"/>
+    <rect x="-12" y="-16" width="10" height="32" rx="5" fill="url(#waveGrad)" opacity="0.8"/>
+    <rect x="4"  y="-30" width="10" height="60" rx="5" fill="url(#waveGrad)"/>
+    <rect x="20" y="-20" width="10" height="40" rx="5" fill="url(#waveGrad)" opacity="0.7"/>
+    <rect x="36" y="-14" width="10" height="28" rx="5" fill="url(#waveGrad)" opacity="0.6"/>
+    <rect x="52" y="-8"  width="10" height="16" rx="5" fill="url(#waveGrad)" opacity="0.4"/>
+  </g>
+
+  <!-- Texte -->
+  <text x="200" y="78" font-family="Niramit, sans-serif" font-size="14" fill="white" text-anchor="middle" opacity="0.7" letter-spacing="3">INGÉNIEURE DU SON</text>
+</svg>
